@@ -1,0 +1,212 @@
+{
+    "navbarData": {
+        "logo": "/imgs/logo-no-bg.png",
+        "title": "JuegaYa",
+        "links": [
+            {
+                "label": "Inicio",
+                "url": "/home",
+                "button": false
+            },
+            {
+                "label": "Conocenos",
+                "url": "/about-us",
+                "button": false
+            },
+            {
+                "label": "Reservar",
+                "url": "/reserve",
+                "button": false
+            },
+            {
+                "label": "Log In | Iniciar Sesion",
+                "url": "",
+                "button": true
+            }
+        ]
+    },
+    "footerData": {
+        "title": "juegaYa",
+        "description": "JuegaYa es tu plataforma de confianza para encontrar y reservar canchas deportivas en cualquier lugar y momento. Nos apasiona el deporte y creemos en su poder para unir a las personas. Con una amplia variedad de canchas de fútbol, tenis, baloncesto y mucho más, nuestro objetivo es facilitar el acceso a los mejores espacios deportivos cercanos a ti. Con solo unos clics, puedes explorar opciones, comparar precios y asegurar tu reserva en cuestión de minutos. ¡Descubre, reserva y disfruta del deporte con JuegaYa!",
+        "logo": "",
+        "col_links": [
+            {
+                "title": "Enlaces rapidos",
+                "links": [
+                    {
+                        "title": "Como funciona",
+                        "path": ""
+                    },
+                    {
+                        "title": "Cotizacion",
+                        "path": ""
+                    },
+                    {
+                        "title": "Politica de Privacidad",
+                        "path": ""
+                    },
+                    {
+                        "title": "Terminos y condiciones",
+                        "path": ""
+                    }
+                ]
+            },
+            {
+                "title": "Empresa",
+                "links": [
+                    {
+                        "title": "Sobre nosotros",
+                        "path": ""
+                    },
+                    {
+                        "title": "blog",
+                        "path": ""
+                    },
+                    {
+                        "title": "Contactanos",
+                        "path": ""
+                    }
+                ]
+            }
+        ],
+        "contacto": {
+            "telefono": {
+                "descripcion": "+51 926 658 052",
+                "icon": ""
+            },
+            "redes": [
+                {
+                    "url": "https://web.facebook.com/profile.php?id=61565877276345&_rdc=1&_rdr",
+                    "icon": "FaFacebook"
+                },
+                {
+                    "url": "https://twitter.com",
+                    "icon": "FaTwitter"
+                },
+                {
+                    "url": "https://www.instagram.com/juegaya.app",
+                    "icon": "FaInstagram"
+                },
+                {
+                    "url": "https://www.tiktok.com/@juegaya.app",
+                    "icon": "FaLinkedin"
+                }
+            ]
+        }
+    },
+    "sectionsData": {
+        "homeData": {
+            "searchData": {
+                "img": "/imgs/banner.avif",
+                "sports": ["Futbol", "Voley", "Baloncesto"]
+            },
+            "advantagesData": [
+                {
+                    "image": "/imgs/adv-1.avif",
+                    "title": "Consultas y reservas simplificados",
+                    "descripcion":"Consulta disponibilidad y características de canchas\nsin necesidad de llamadas. ¡Disfruta ya!"
+                },
+                {
+                    "image": "/imgs/adv-2.avif",
+                    "title": "Creacion de Equipos",
+                    "descripcion": "Forma tu equipo ideal ¡Compite y haz nuevos amigos en la cancha!"
+                },
+                {
+                    "image": "/imgs/adv-3.png",
+                    "title": "Grabacion de tus encuentros",
+                    "descripcion": "Graba tus mejores jugadas\nRevive y comparte tus momentos épicos."
+                },
+                {
+                    "image": "/imgs/adv-4.avif",
+                    "title": "Sistema de recompensas",
+                    "descripcion": "Gana puntos por cada actividad\nCuanto más juegas, más recompensas obtienes."
+                },
+                {
+                    "image": "/imgs/adv-5.avif",
+                    "title": "Gestion eficiente de propietarios",
+                    "descripcion": "Optimiza el uso de tus canchas\nLleva el control sin esfuerzo."
+                }
+            ],
+            "howWorkData": [
+                {
+                    "title": "Paso 1: Selecciona tu recinto favorito",
+                    "description": "Crea una cuenta y completa tu perfil para comenzar.",
+                    "icon": "TbSoccerField" 
+                },
+                {
+                    "title": "Paso 2: Elige la fecha y hora",
+                    "description": "Elige el servicio o función que mejor se adapte a tus necesidades.",
+                    "icon": "GrSchedules"
+                },
+                {
+                    "title": "Paso 3: Confirmar detalles de reserva",
+                    "description": "Configura tus preferencias y personaliza la experiencia.",
+                    "icon": "BsTicketDetailedFill"
+                },
+                {
+                    "title": "Paso 4: Realiza tu pago",
+                    "description": "Completa el proceso y disfruta del servicio.",
+                    "icon": "GiPayMoney"
+                }
+            ],
+            "testimonialsData": [
+                {
+                    "name": "Juan Pérez",
+                    "feedback": "¡El mejor lugar para alquilar canchas! La atención fue excelente y el espacio impecable.",
+                    "image": "/imgs/client-1.jpg",
+                    "rating": 5
+                },
+                {
+                    "name": "Javier López",
+                    "feedback": "Reservé una cancha para un torneo y todo salió perfecto. Muy recomendable.",
+                    "image": "/imgs/client-2.avif",
+                    "rating": 4
+                },
+                {
+                    "name": "Carlos Ruiz",
+                    "feedback": "Las instalaciones son de primera calidad. Volveré a alquilar sin duda.",
+                    "image": "/imgs/client-3.webp",
+                    "rating": 5
+                },
+                {
+                    "name": "Laura García",
+                    "feedback": "Tuve una experiencia increíble organizando un evento deportivo aquí. El servicio fue excepcional.",
+                    "image": "/imgs/client-4.jpeg",
+                    "rating": 5
+                }
+            ]
+        },
+        "aboutData": {
+            "header": "Facilitamos el acceso a las mejores canchas deportivas de tu ciudad, con una plataforma rápida y sencilla para reservar espacios donde puedas disfrutar de tu deporte favorito.",
+            "mision": "Facilitar el acceso a espacios deportivos de calidad, asegurando una experiencia de reserva conveniente y accesible.",
+            "vision": "Ser el principal aliado para deportistas y propietarios de canchas, conectando a miles de jugadores con espacios de calidad en toda la región",
+            "caracteristicas": [
+                {
+                    "icon": "FaFutbol",
+                    "iconClass": "text-gray-700 text-4xl",
+                    "title": "Variedad de Deportes",
+                    "description": "Reserva canchas de fútbol, tenis, pádel, basketball y vóley en un solo lugar."
+                },
+                {
+                    "icon": "FaStopwatch",
+                    "iconClass": "text-gray-700 text-4xl",
+                    "title": "Reservas en Tiempo Real",
+                    "description": "Disponibilidad instantánea de canchas, asegurando que siempre encuentres un lugar para jugar."
+                },
+                {
+                    "icon": "FaCheckCircle",
+                    "iconClass": "text-gray-700 text-4xl",
+                    "title": "Fácil de Usar",
+                    "description": "Proceso de reserva rápido y sencillo en solo 4 pasos."
+                },
+                {
+                    "icon": "FaCreditCard",
+                    "iconClass": "text-gray-700 text-4xl",
+                    "title": "Pagos Seguros",
+                    "description": "Pagos seguros con diversas opciones de pago, para que puedas reservar con confianza."
+                }
+            ]
+            
+        }
+    }
+}

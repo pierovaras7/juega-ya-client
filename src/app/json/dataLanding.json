@@ -1,0 +1,28 @@
+{
+    "navbar": {
+        "logo": "",
+        "title": "TITULO NAVBAR AQUI",
+        "links": [
+            {
+                "label": "Inicio",
+                "url": "",
+                "button": false
+            },
+            {
+                "label": "Conocenos",
+                "url": "/about-us",
+                "button": false
+            },
+            {
+                "label": "Reservar",
+                "url": "/reserve",
+                "button": false
+            },
+            {
+                "label": "Log In | Iniciar Sesion",
+                "url": "",
+                "button": true
+            }
+        ]
+    }
+}
