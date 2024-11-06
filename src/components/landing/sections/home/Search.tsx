@@ -1,10 +1,10 @@
 "use client";
-import { archivo_block, poppins } from "@/app/layout";
 import { useLanding } from "@/context/LandingContext";
 import { useState } from "react";
 import { FaSearchLocation } from 'react-icons/fa';
 import AutocompleteInput from "../partials/AutocopleteInput";
 import Image from "next/image";
+import { archivo_block, poppins } from "@/app/fonts/googleFonts";
 
 const Search = () => {
     const dataSearch = useLanding().dataLanding?.sectionsData.homeData.searchData;

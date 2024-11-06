@@ -1,4 +1,3 @@
-// app/conocenos/page.tsx
 "use client"
 import AboutHeader from '@/components/landing/sections/about-us/AboutHeader';
 import FeaturesSection from '@/components/landing/sections/about-us/FeaturesSection';

@@ -1,5 +1,5 @@
 "use client";
-import { poppins, rubik_mono_one } from "@/app/layout";
+import { poppins, rubik_mono_one } from "@/app/fonts/googleFonts";
 import { useLanding } from "@/context/LandingContext";
 import Image from "next/image";
 import Link from 'next/link';

@@ -1,9 +1,10 @@
-import { rubik_mono_one } from "@/app/layout";
+"use client"
 import Link from "next/link";
 import SocialLinks from "./partials/SocialLinks";
 import * as Icons from 'react-icons/fa'; // Importar todos los íconos de FontAwesome
 import { useLanding } from "@/context/LandingContext";
 import Image from "next/image";
+import { rubik_mono_one } from "@/app/fonts/googleFonts";
 
 
 const Footer = () => {

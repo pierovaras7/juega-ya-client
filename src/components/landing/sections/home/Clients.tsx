@@ -1,5 +1,5 @@
 "use client";
-import { rubik_mono_one } from '@/app/layout';
+import { rubik_mono_one } from '@/app/fonts/googleFonts';
 import { useLanding } from '@/context/LandingContext';
 import Image from 'next/image';
 import React, { useState } from 'react';

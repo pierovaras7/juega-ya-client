@@ -1,5 +1,5 @@
 "use client"
-import { rubik_mono_one } from "@/app/layout";
+import { rubik_mono_one } from "@/app/fonts/googleFonts";
 import { useLanding } from "@/context/LandingContext";
 
 // app/conocenos/components/MissionSection.tsx

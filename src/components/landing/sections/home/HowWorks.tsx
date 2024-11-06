@@ -1,10 +1,11 @@
+"use client"
 import React from 'react';
 import { GrSchedules } from "react-icons/gr";
 import { TbSoccerField } from "react-icons/tb";
 import { BsTicketDetailedFill } from "react-icons/bs";
 import { GiPayMoney } from "react-icons/gi";
-import { rubik_mono_one } from '@/app/layout';
 import { useLanding } from '@/context/LandingContext';
+import { rubik_mono_one } from '@/app/fonts/googleFonts';
 
 // Define los nombres de los iconos como un tipo
 type IconName = 'TbSoccerField' | 'GrSchedules' | 'BsTicketDetailedFill' | 'GiPayMoney';

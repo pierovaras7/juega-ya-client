@@ -1,5 +1,5 @@
 "use client"
-import { archivo_block, poppins, rubik_mono_one } from '@/app/layout';
+import { archivo_block, poppins, rubik_mono_one } from '@/app/fonts/googleFonts';
 import { useLanding } from '@/context/LandingContext';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';

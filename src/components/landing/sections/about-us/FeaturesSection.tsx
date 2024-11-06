@@ -1,6 +1,6 @@
 // app/conocenos/components/FeaturesSection.tsx
 "use client"
-import { rubik_mono_one } from '@/app/layout';
+import { rubik_mono_one } from '@/app/fonts/googleFonts';
 import { useLanding } from '@/context/LandingContext';
 import { IconType } from 'react-icons';
 import { FaFutbol, FaStopwatch, FaCheckCircle, FaCreditCard} from 'react-icons/fa';
