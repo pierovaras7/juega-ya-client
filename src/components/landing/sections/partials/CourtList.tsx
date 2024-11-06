@@ -18,7 +18,7 @@ export default function CourtList (){
     const totalPages = Math.ceil(courts?.length / itemsPerPage);
 
     return (
-        <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r bg-slate-100 rounded-lg shadow-lg bg-opacity-85">
+        <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r bg-slate-100 rounded-lg shadow-lg">
             <h2 className={`text-3xl font-bold mb-6 text-center text-gray-700 ${rubik_mono_one.className}`}>Ranking de Canchas</h2>
             <ul className="bg-white shadow rounded-lg overflow-hidden divide-y divide-gray-200 min-h-[360px]">
                 {currentCourts?.map((court, index) => (
@@ -47,7 +47,7 @@ export default function CourtList (){
                     <button
                         key={index}
                         onClick={() => paginate(index + 1)}
-                        className={`px-4 py-2 rounded-lg ${
+                        className={`hidden md:block px-4 py-2 rounded-lg ${
                             currentPage === index + 1
                                 ? 'bg-gray-700 text-white shadow-md'
                                 : 'bg-white text-gray-700 border border-gray-200 hover:bg-blue-100'

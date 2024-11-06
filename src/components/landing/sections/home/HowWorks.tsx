@@ -26,8 +26,8 @@ const HowWorks: React.FC = () => {
     console.log(steps);
 
     return (
-        <div className="flex flex-col items-center w-full h-full px-48 py-20">
-            <h2 className={`text-4xl text-center font-semibold mb-8 text-blue-950 ${rubik_mono_one.className}`}>
+        <div className="flex flex-col items-center w-full h-full px-16 md:px-48 py-10 md:py-20">
+            <h2 className={`text-2xl md:text-4xl text-center font-semibold mb-8 text-blue-950 ${rubik_mono_one.className}`}>
                 ¿Cómo <b className='text-green-700'>Funciona?</b>
             </h2>
             <div className="grid md:grid-cols-4 gap-6 mb-8">

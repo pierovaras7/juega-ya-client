@@ -46,13 +46,13 @@ const Clients: React.FC = () => {
     }
 
     return (
-        <div className="w-full py-12">
+        <div className="w-full py-12 px-4">
             <h2 className={`text-2xl md:text-4xl text-center font-semibold mb-8 text-blue-950 ${rubik_mono_one.className}`}>
                 Lo que dicen nuestros clientes
             </h2>
             <div className="flex justify-center relative">
-                <div className={`w-full max-w-md max-h-screen bg-white shadow-lg rounded-lg p-6 text-center transition-all duration-300 ease-in-out transform ${isAnimating ? 'opacity-0 -translate-x-5' : 'opacity-100 translate-x-0'}`}>
-                    <Image 
+                <div className={`w-full max-w-md max-h-screen bg-white shadow-lg rounded-lg pt-5 md:p-6 text-center transition-all duration-300 ease-in-out transform ${isAnimating ? 'opacity-0 -translate-x-5' : 'opacity-100 translate-x-0'}`}>
+                    <img 
                         src={testimonials[currentIndex].image} 
                         alt={testimonials[currentIndex].name} 
                         className="w-24 h-24 rounded-full mx-auto mb-4"
@@ -61,19 +61,19 @@ const Clients: React.FC = () => {
                         {testimonials[currentIndex].name}
                     </h3>
                     {renderStars(testimonials[currentIndex].rating)}
-                    <p className="text-gray-600 italic overflow-hidden h-20 line-clamp-3">
+                    <p className="text-gray-600 italic overflow-hidden h-20 line-clamp-3 text-sm md:text-md">
                         "{testimonials[currentIndex].feedback}"
                     </p>
                 </div>
                 {/* Flechas de navegación con animación */}
                 <button 
-                    className="absolute left-0 md:left-1/4 top-1/2 transform -translate-y-1/2 bg-gray-300 text-black rounded-full p-4 transition-transform duration-150 hover:bg-gray-400 active:scale-90"
+                    className="absolute left-0 md:left-1/2 top-1/2 transform -translate-y-1/2 bg-gray-300 text-black rounded-full p-2 md:p-4 transition-transform duration-150 hover:bg-gray-400 active:scale-90"
                     onClick={handlePrev}
                 >
                     <FaChevronLeft />
                 </button>
                 <button 
-                    className="absolute right-0 md:right-1/4 top-1/2 transform -translate-y-1/2 bg-gray-300 text-black rounded-full p-4 transition-transform duration-150 hover:bg-gray-400 active:scale-90"
+                    className="absolute right-0 md:right-1/4 top-1/2 transform -translate-y-1/2 bg-gray-300 text-black rounded-full p-2 md:p-4 transition-transform duration-150 hover:bg-gray-400 active:scale-90"
                     onClick={handleNext}
                 >
                     <FaChevronRight />

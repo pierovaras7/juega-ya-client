@@ -25,21 +25,21 @@ const Advantages: React.FC = () => {
 
     return (
         <div className='flex flex-col justify-center bg-gray-0 my-8'>
-            <h2 className={`w-full text-center p-4 uppercase text-5xl ${archivo_block.className} text-blue-950`}>
+            <h2 className={`w-full text-center p-4 uppercase text-2xl md:text-5xl ${archivo_block.className} text-blue-950`}>
                 Descubre lo que tenemos para <b className='text-green-600'>TI</b>
             </h2>
             <div className="flex flex-col items-center justify-between">
-                <div className="w-3/4 h-[500px] relative">
-                    <Image
+                <div className="w-4/5 md:w-3/4 h-[250px] md:h-[500px] relative">
+                    <img
                         src={advs[currentIndex].image} 
                         className="object-cover object-center h-full w-full transition-opacity duration-500 ease-in-out" 
                         alt={advs[currentIndex].title}
                     />
                     <div className='absolute bottom-0 bg-black bg-opacity-65 p-6 w-full'>
-                        <h1 className={`text-xl uppercase text-white ${rubik_mono_one.className}`}>
+                        <h1 className={`text-xs md:text-xl uppercase text-white ${rubik_mono_one.className}`}>
                             {advs[currentIndex].title}
                         </h1>
-                        <p className={`text-white text-justify ${poppins.className}`}>
+                        <p className={`text-white text-justify ${poppins.className} text-xs`}>
                             {advs[currentIndex].descripcion}
                         </p>
                     </div>

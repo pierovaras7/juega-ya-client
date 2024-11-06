@@ -19,7 +19,7 @@ const FeaturesSection = () => {
 
     return (
         <section>
-            <h2 className={`text-3xl font-semibold text-gray-700 mb-6 uppercase text-center ${rubik_mono_one.className}`}>
+            <h2 className={`text-2xl md:text-3xl font-semibold text-gray-700 mb-6 uppercase text-center ${rubik_mono_one.className}`}>
                 Características
             </h2>
             <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">

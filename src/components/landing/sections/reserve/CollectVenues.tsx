@@ -83,14 +83,14 @@ export default function Autocomplete() {
     };
 
     return (
-        <div onClick={handleContainerClick} className="flex flex-col items-center justify-center p-4">
+        <div onClick={handleContainerClick} className="flex flex-col items-center justify-center px-8 md:p-6">
             <Alert 
                 message={responseMessage} 
                 visible={showAlert} 
                 onClose={handleCloseAlert} 
                 type={alertType} 
             />
-            <div className="bg-white bg-opacity-85 p-8 rounded-lg shadow-lg w-full max-w-md mb-8">
+            <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md mb-8">
                 <h1 className="text-2xl text-[#011828] font-bold mb-4 text-center">¡Dinos tu cancha favorita!</h1>
                 <p className="text-gray-700 mb-4 text-center">
                     Tu opinión importa. Ayúdanos a incluir las mejores canchas para que siempre encuentres un lugar disponible cerca de ti.

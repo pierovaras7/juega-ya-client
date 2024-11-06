@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="flex items-center justify-center text-xs">
                 © 2024 JuegaYa
                 <p className="ml-3">x</p>
-                <Image src="/imgs/brHX.png" alt="" className="w-16 h-8" />
+                <img src="/imgs/brHX.png" alt="" className="w-16 h-8" width={16} height={8}/>
                 | All rights reserved
             </div>
 

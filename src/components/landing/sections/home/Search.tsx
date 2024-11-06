@@ -17,9 +17,9 @@ const Search = () => {
     };
 
     return (
-        <div className="lg:h-[700px] overflow-hidden relative">
+        <div className="h-[500px] lg:h-[700px] overflow-hidden relative">
             {dataSearch?.img && (
-            <Image
+            <img
                 src={dataSearch.img}
                 alt="Banner img search"
                 className="object-cover w-full h-full"
@@ -27,12 +27,12 @@ const Search = () => {
             )}
 
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <h1 className={`${archivo_block.className} text-6xl`}>
+                <h1 className={`${archivo_block.className} text-2xl md:text-6xl`}>
                     <p className="text-white text-center">BUSCA, RESERVA &</p>
                     <p className="text-green-600 text-center"> JUEGA</p>
                 </h1>
-                <h2 className={`${poppins.className} text-lg text-white m-5`}>Encuentra los mejores escenarios deportivos cerca a ti</h2>
-                <div className="flex flex-col md:flex-row bg-black bg-opacity-50 px-10 py-8 gap-2 w-1/2">
+                <h2 className={`${poppins.className} text-lg text-white m-5 w-full text-center`}>Encuentra los mejores escenarios deportivos cerca a ti</h2>
+                <div className="flex flex-col md:flex-row bg-black bg-opacity-50 px-10 py-8 gap-2 md:w-1/2">
                     <div className="flex items-center justify-center md:w-1/5">
                         <select
                             id="comboBox"
