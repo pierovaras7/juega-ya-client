@@ -19,7 +19,7 @@ export default function CourtList (){
 
     return (
         <div className="max-w-3xl mx-auto p-6 bg-gradient-to-r bg-slate-100 rounded-lg shadow-lg bg-opacity-85">
-            <h2 className={`text-3xl font-bold mb-6 text-center text-gray-700 ${rubik_mono_oneCLS.className}`}>Ranking de Canchas</h2>
+            <h2 className={`text-3xl font-bold mb-6 text-center text-gray-700 ${rubik_mono_one.className}`}>Ranking de Canchas</h2>
             <ul className="bg-white shadow rounded-lg overflow-hidden divide-y divide-gray-200 min-h-[360px]">
                 {currentCourts?.map((court, index) => (
                     <li key={court.id_ranking} className="p-3 flex items-center justify-between hover:bg-gray-100 transition-colors">
