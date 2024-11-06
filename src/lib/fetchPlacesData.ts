@@ -13,7 +13,7 @@ export const fetchPlacesData = async (input: string): Promise<PlacePrediction[]>
         const response = await axios.get(url);
         // Verifica que response.data.predictions exista antes de devolverlo
         return response.data.predictions as PlacePrediction[];
-    } catch (error: any) {
+    } catch (error) {
         console.error('Error fetching places from API route:', error);
         throw new Error('Error fetching places');
     }

@@ -1,6 +1,7 @@
 "use client";
 import { poppins, rubik_mono_one } from "@/app/layout";
 import { useLanding } from "@/context/LandingContext";
+import Image from "next/image";
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { FaAlignJustify } from 'react-icons/fa';
@@ -55,7 +56,7 @@ const Navbar = () => {
             <div className={`flex md:w-2/5 justify-between items-center m-2 px-6 py-3`}>
                 <Link href="/home" passHref>
                     <div className={`flex items-center`}>
-                        <img src={logo} alt="Logo" className="w-16 h-auto cursor-pointer" />
+                        <Image src={logo} alt="Logo" className="w-16 h-auto cursor-pointer" />
                         <h1 className={`text-xl md:text-3xl px-4 ${rubik_mono_one.className}`}>
                             {mainText}<b className="text-green-600">{lastTwoLetters}</b>
                         </h1>

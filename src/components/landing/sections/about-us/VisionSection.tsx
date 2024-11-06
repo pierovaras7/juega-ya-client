@@ -1,3 +1,4 @@
+"use client"
 import { rubik_mono_one } from "@/app/layout";
 import { useLanding } from "@/context/LandingContext";
 

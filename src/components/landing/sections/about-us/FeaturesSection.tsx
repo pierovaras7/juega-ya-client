@@ -1,4 +1,5 @@
 // app/conocenos/components/FeaturesSection.tsx
+"use client"
 import { rubik_mono_one } from '@/app/layout';
 import { useLanding } from '@/context/LandingContext';
 import { IconType } from 'react-icons';

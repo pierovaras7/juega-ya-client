@@ -1,18 +1,17 @@
 // components/Autocomplete.tsx
-import { fetchPlacesData } from '@/lib/fetchPlacesData';
+import { fetchPlacesData, PlacePrediction } from '@/lib/fetchPlacesData';
 import { sendRequest } from '@/lib/fetchSendRequest';
 import { useState, useEffect, useRef, FormEvent } from 'react';
 import Alert from '@/components/landing/sections/partials/Alert';
 
 export default function Autocomplete() {
     const [input, setInput] = useState<string>(''); 
-    const [results, setResults] = useState<any[]>([]);
+    const [results, setResults] = useState<PlacePrediction[]>([]);
     const [nombreSolicitud, setNombreSolicitud] = useState('');
     const [responseMessage, setResponseMessage] = useState('');
     const [isUserTyping, setIsUserTyping] = useState(true);
     const [showAlert, setShowAlert] = useState(false);
     const [alertType, setAlertType] = useState<'confirmation' | 'prevention'>('confirmation'); 
-    const containerRef = useRef<HTMLDivElement>(null);
 
     // Función para buscar lugares
     const fetchPlaces = async (query: string) => {

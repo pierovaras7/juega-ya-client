@@ -4,6 +4,7 @@ import { useLanding } from "@/context/LandingContext";
 import { useState } from "react";
 import { FaSearchLocation } from 'react-icons/fa';
 import AutocompleteInput from "../partials/AutocopleteInput";
+import Image from "next/image";
 
 const Search = () => {
     const dataSearch = useLanding().dataLanding?.sectionsData.homeData.searchData;
@@ -17,10 +18,14 @@ const Search = () => {
 
     return (
         <div className="lg:h-[700px] overflow-hidden relative">
-            <img 
-                src={dataSearch?.img}  
-                className="object-cover w-full h-full" 
+            {dataSearch?.img && (
+            <Image
+                src={dataSearch.img}
+                alt="Banner img search"
+                className="object-cover w-full h-full"
             />
+            )}
+
             <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <h1 className={`${archivo_block.className} text-6xl`}>
                     <p className="text-white text-center">BUSCA, RESERVA &</p>

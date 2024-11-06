@@ -1,9 +1,8 @@
-"use client"
 import { Archivo_Black, Poppins, Rakkas, Rubik_Mono_One } from 'next/font/google';
 import "./globals.css";
 import Footer from "@/components/landing/footer/Footer";
 import Navbar from '@/components/landing/navbar/Navbar';
-import { LandingData, LandingProvider } from "@/context/LandingContext"; // Asegúrate de la ruta correcta
+import { LandingProvider } from "@/context/LandingContext"; // Asegúrate de la ruta correcta
 
 // Define tus fuentes
 export const poppins = Poppins({

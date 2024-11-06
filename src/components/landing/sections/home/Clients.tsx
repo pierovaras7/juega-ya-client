@@ -1,6 +1,7 @@
 "use client";
 import { rubik_mono_one } from '@/app/layout';
 import { useLanding } from '@/context/LandingContext';
+import Image from 'next/image';
 import React, { useState } from 'react';
 import { BsFillStarFill, BsStar } from 'react-icons/bs';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
@@ -51,7 +52,7 @@ const Clients: React.FC = () => {
             </h2>
             <div className="flex justify-center relative">
                 <div className={`w-full max-w-md max-h-screen bg-white shadow-lg rounded-lg p-6 text-center transition-all duration-300 ease-in-out transform ${isAnimating ? 'opacity-0 -translate-x-5' : 'opacity-100 translate-x-0'}`}>
-                    <img 
+                    <Image 
                         src={testimonials[currentIndex].image} 
                         alt={testimonials[currentIndex].name} 
                         className="w-24 h-24 rounded-full mx-auto mb-4"

@@ -1,6 +1,5 @@
 // app/conocenos/page.tsx
 "use client"
-import Navbar from '@/components/landing/navbar/Navbar';
 import AboutHeader from '@/components/landing/sections/about-us/AboutHeader';
 import FeaturesSection from '@/components/landing/sections/about-us/FeaturesSection';
 import MissionSection from '@/components/landing/sections/about-us/MissionSection';

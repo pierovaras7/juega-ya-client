@@ -1,6 +1,7 @@
 "use client"
 import { archivo_block, poppins, rubik_mono_one } from '@/app/layout';
 import { useLanding } from '@/context/LandingContext';
+import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
 const Advantages: React.FC = () => {
@@ -29,7 +30,7 @@ const Advantages: React.FC = () => {
             </h2>
             <div className="flex flex-col items-center justify-between">
                 <div className="w-3/4 h-[500px] relative">
-                    <img 
+                    <Image
                         src={advs[currentIndex].image} 
                         className="object-cover object-center h-full w-full transition-opacity duration-500 ease-in-out" 
                         alt={advs[currentIndex].title}

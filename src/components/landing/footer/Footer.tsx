@@ -3,6 +3,7 @@ import Link from "next/link";
 import SocialLinks from "./partials/SocialLinks";
 import * as Icons from 'react-icons/fa'; // Importar todos los íconos de FontAwesome
 import { useLanding } from "@/context/LandingContext";
+import Image from "next/image";
 
 
 const Footer = () => {
@@ -48,7 +49,7 @@ const Footer = () => {
             <div className="flex items-center justify-center text-xs">
                 © 2024 JuegaYa
                 <p className="ml-3">x</p>
-                <img src="/imgs/brHX.png" alt="" className="w-16 h-8" />
+                <Image src="/imgs/brHX.png" alt="" className="w-16 h-8" />
                 | All rights reserved
             </div>
 
