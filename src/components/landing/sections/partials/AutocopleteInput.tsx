@@ -1,6 +1,5 @@
-import { Place } from '@/app/types/fetchs';
 import { fetchPlacesData, PlacePrediction } from '@/lib/fetchPlacesData';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 interface AutocompleteInputProps {
     value: string;
@@ -37,7 +36,7 @@ const AutocompleteInput: React.FC<AutocompleteInputProps> = ({ value, onChange, 
                 className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring focus:ring-blue-300 text-sm"
             />
             {suggestions.length > 0 && (
-                <ul className="absolute z-10 bg-white border border-gray-300 w-full rounded-lg mt-1  overflow-auto max-h-24 md:max-h-52">
+                <ul className="absolute z-10 bg-white border border-gray-300 w-full rounded-lg mt-1 overflow-auto max-h-24 md:max-h-52 shadow-lg">
                     {suggestions.map((suggestion) => (
                         <li
                             key={suggestion.place_id}
